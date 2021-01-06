@@ -11,39 +11,43 @@ h1 {
   font-family: 'Sacramento',cursive;
   color: #fca3cc;
   line-height: 2;
+  position: relative;
+  bottom: 160px
   
 }
 h2, h3 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
   color: #fbbedf;
   margin:0;
   }
 
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
 #subtitle {
   color: #fca3cc;
   font-weight: normal;
+  position: relative;
+  bottom: 160px;
 
 }
 
 .top_container {
   background-color:#fdcfdf;
   position: relative;
-  padding-top: 100px;
-}
-
-.middle_container {
-  
-}
-
-.bottom_container {
-  
-}
+  padding-top: 200px;
+ }
 
 .bottom-cloud {
   position: absolute;
   left: 300px;
   bottom: 300px;
+  opacity: 0.9;
 
   
 }
@@ -52,4 +56,100 @@ h2, h3 {
   position: absolute;
   right: 300px;
   top: 50px;
+}
+
+.mountain{
+position: absolute;
+left: 250px;
+top: 145px;
+/* opacity: 0.7; */
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: justify;
+  line-height: 2;
+}
+
+.animation {
+  width: 18%;
+  float: left;
+  margin-right: 30px;
+  background-color: #bce6eb;
+  border-radius: 50%;
+  border: 2px #fca3cc solid;
+}
+
+.coca {
+  width: 18%;
+  float: right;
+  margin-left: 30px;
+  background-color: #bce6eb;
+  border-radius: 50%;
+  border: 2px #fca3cc solid;
+}
+
+.contact-btn {
+  position: relative;
+  bottom: 140px;
+  color: #bce6eb;
+  background-color: #fca3cc;
+  border: 2px #bce6eb solid;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 30%;
+
+}
+
+.profile {
+  margin: 30px 250px 20px 250px;
+}
+
+.profile img {
+  border-radius: 50px;
+  border: 2px #fca3cc solid;
+  background-color: #bce6eb;
+}
+
+p { 
+  text-align: justify;
+  line-height: 2;
+}
+
+hr {
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #bce6eb;
+}
+
+a {
+  color: #bce6eb;
+}
+
+.contact-me {
+  margin: 30px 250px 20px 250px;
+  line-height: 2;
+
+
+}
+
+.bottom_container{
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  height: 100px;
+  width: 100%;
+  background-color:#fdcfdf;
+  text-align: center;
+  color: white;
+}
+
+#copyright {
+  position: relative;
+  left: 45%;
+  font-size:16px;
+  color: #fca3cc;
+
 }
