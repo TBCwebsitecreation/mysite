@@ -3,6 +3,7 @@ body {
   text-align: center;
   font-family: 'Roboto Slab',serif;
   font-size: 18px;
+  color: rgb(73, 68, 68);
   
 }
 h1 {
@@ -12,7 +13,7 @@ h1 {
   color: #f35ca2;
   line-height: 2;
   position: relative;
-  bottom: 160px
+  bottom: 160px;
   
 }
 h2, h3 {
@@ -23,10 +24,12 @@ h2, h3 {
 
 h2 {
   font-size: 3rem;
+  
 }
 
 h3 {
   font-size: 2rem;
+  
 }
 
 #subtitle {
@@ -79,6 +82,8 @@ top: 145px;
   background-color: #bce6eb;
   border-radius: 50%;
   border: 2px #fca3cc solid;
+  padding: 10px;
+
 }
 
 .coca {
@@ -88,6 +93,7 @@ top: 145px;
   background-color: #bce6eb;
   border-radius: 50%;
   border: 2px #fca3cc solid;
+  padding: 10px;
 }
 
 .contact-btn {
@@ -116,16 +122,22 @@ top: 145px;
   background-color: #bce6eb;
 }
 
+#intro {
+  width: 70%;
+  margin: auto;
+  padding-top: 30px;
+}
+
 p { 
   text-align: justify;
   line-height: 2;
 }
 
 hr {
-  width: 50%;
+  width: 25%;
   margin-top: 50px;
   margin-bottom: 50px;
-  border: 1px solid #bce6eb;
+  border: 2px solid #bce6eb;
 }
 
 a {
@@ -135,8 +147,11 @@ a {
 .contact-me {
   margin: 30px 250px 20px 250px;
   line-height: 2;
+}
 
-
+.contact-me p {
+  width: 70%;
+  margin: auto;
 }
 
 .bottom_container{
@@ -148,15 +163,21 @@ a {
   background-color:#fdcfdf;
   text-align: center;
   color: white;
+  padding-top: 10px;
 }
 
 #copyright {
   position: relative;
   left: 45%;
-  font-size:16px;
+  font-size:14px;
   color: #da0f6d;
 
 }
 .footer-link{
   padding-right: 20px;
+  text-decoration: none;
+  
+}
+a:hover {
+  color: rgb(189, 178, 178);
 }
