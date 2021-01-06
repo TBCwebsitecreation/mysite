@@ -9,7 +9,7 @@ h1 {
   font-size: 550%;
   margin: 0;
   font-family: 'Sacramento',cursive;
-  color: #fca3cc;
+  color: #f35ca2;
   line-height: 2;
   position: relative;
   bottom: 160px
@@ -17,7 +17,7 @@ h1 {
 }
 h2, h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #fbbedf;
+  color: #f35ca2;
   margin:0;
   }
 
@@ -30,7 +30,7 @@ h3 {
 }
 
 #subtitle {
-  color: #fca3cc;
+  color: #f35ca2;
   font-weight: normal;
   position: relative;
   bottom: 160px;
@@ -101,6 +101,10 @@ top: 145px;
   border-radius: 30%;
 
 }
+.contact-btn a {
+  color: white;
+  letter-spacing: 2px;
+}
 
 .profile {
   margin: 30px 250px 20px 250px;
@@ -125,7 +129,7 @@ hr {
 }
 
 a {
-  color: #bce6eb;
+  color: #0c8997;
 }
 
 .contact-me {
@@ -150,6 +154,9 @@ a {
   position: relative;
   left: 45%;
   font-size:16px;
-  color: #fca3cc;
+  color: #da0f6d;
 
+}
+.footer-link{
+  padding-right: 20px;
 }
