@@ -1,1 +1,2 @@
-# mysite
+What is this site about?
+
