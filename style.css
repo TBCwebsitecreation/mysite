@@ -216,3 +216,14 @@ a {
 a:hover {
   color: rgb(189, 178, 178);
 }
+
+@media (max-width: 200px) {
+  .container {
+    width: 100vw;
+  }
+
+  .mountain{
+    display:none;
+  }
+
+}
