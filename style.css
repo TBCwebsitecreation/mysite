@@ -16,8 +16,9 @@ body {
 h1 {
   font-size: 550%;
   margin: 0;
-  font-family: 'Sacramento',cursive;
-  color: #f35ca2;
+  font-family: 'Montserrat',
+  sans-serif;
+  color: #e94591;
   line-height: 2;
   position: relative;
   bottom: 160px;
@@ -69,15 +70,16 @@ h3 {
   top: -30px;
   height: 260px;
   width: 250px;
+  
 }
 
 .mountain{
 position: absolute;
-left: 250px;
+left: 350px;
 top: -32px;
 opacity: 0.7;
 height: 800px;
-width: 1050px;
+width: 1200px;
 }
 
 .skill-row {
